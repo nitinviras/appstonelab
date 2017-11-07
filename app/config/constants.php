@@ -85,11 +85,12 @@ defined('EXIT_DATABASE') OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN') OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX') OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
-define('img_path', 'assets/images');
-define('icon_path', 'assets/icon');
-define('css_path', 'assets/css');
-define('js_path', 'assets/js');
-define('uploads_path', 'assets/uploads');
+define('IMAGES_PATH', 'assets/images/');
+define('CSS_PATH', 'assets/css/');
+define('JS_PATH', 'assets/js/');
+define('ICON_PATH', 'assets/icon/');
+define('UPLOAD_PATH', 'assets/uploads/');
+
 define('veri_link', '+72 hour');
 define('FOLLWER_PRODUCTS', '-72 hour');
 define('forgot', '+1 hour');

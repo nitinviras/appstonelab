@@ -75,7 +75,7 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-    'dsn' => 'mysql:host=localhost;dbname=appstone',
+    'dsn' => 'mysql:host=localhost;dbname=',
     'hostname' => 'localhost',
     'username' => 'root',
     'password' => '',
