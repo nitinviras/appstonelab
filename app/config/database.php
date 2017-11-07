@@ -75,11 +75,11 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-    'dsn' => 'mysql:host=localhost;dbname=themeshub_themes',
+    'dsn' => 'mysql:host=localhost;dbname=appstone',
     'hostname' => 'localhost',
     'username' => 'root',
     'password' => '',
-    'database' => 'themeshub_themes',
+    'database' => 'appstone',
     'dbdriver' => 'pdo',
     'dbprefix' => '',
     'pconnect' => FALSE,
