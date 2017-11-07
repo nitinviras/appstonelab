@@ -1,0 +1,12 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|resources|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L,QSA] 
+RewriteCond %{HTTP_HOST} ^themeshub.tech [NC]
+RewriteRule (.*) https://www.themeshub.tech/$1 [R=301,L] 
+
+#AuthType Basic
+#AuthName "home"
+#AuthUserFile "/home/themeshub/.htpasswds/public_html/passwd"
+#require valid-user
